@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useEffect } from 'react';
 
 function Notificacion({ tipo, mensaje, visible, setVisible }) {
     useEffect(() => {
@@ -11,7 +11,7 @@ function Notificacion({ tipo, mensaje, visible, setVisible }) {
     }, [visible, setVisible]);
 
     if (!visible) {
-        return null; 
+        return null;
     }
 
     return (
