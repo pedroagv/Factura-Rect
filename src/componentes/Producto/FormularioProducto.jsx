@@ -13,7 +13,7 @@ function FormularioProducto({ Facturas, setFacturas }) {
         { id: '', Descripcion: '', PrecioUnitario: '', Cantidad: '' }
     );
 
-    const AgregarNuevoProducto = () => {
+    const AgregarNuevoProducto = () => { 
         if (ProductosFactura.id === '' ||
             ProductosFactura.Descripcion === '' ||
             ProductosFactura.PrecioUnitario === '' ||

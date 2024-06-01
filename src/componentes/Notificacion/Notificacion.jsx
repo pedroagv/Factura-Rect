@@ -11,7 +11,7 @@ function Notificacion({ tipo, mensaje, visible, setVisible }) {
     }, [visible, setVisible]);
 
     if (!visible) {
-        return null;
+        return null; 
     }
 
     return (
