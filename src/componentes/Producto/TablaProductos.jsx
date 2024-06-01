@@ -3,7 +3,7 @@ import React from 'react'
 function TablaProductos({ Facturas, EliminarProductoFactura }) {
 
     return (
-        <table className="table mt-3">
+        <table className="table table-striped table-bordered mt-3">
             <thead>
                 <tr>
                     <th>ID Producto</th>
